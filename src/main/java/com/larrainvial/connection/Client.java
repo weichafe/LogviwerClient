@@ -1,6 +1,9 @@
 package com.larrainvial.connection;
 
+import com.larrainvial.Algo;
+import com.larrainvial.event.SendAllDataToViewEvent;
 import com.larrainvial.logviwer.model.ModelMarketData;
+import com.larrainvial.trading.emp.Controller;
 import com.larrainvial.utils.Helper;
 
 import java.io.DataInputStream;
@@ -8,10 +11,11 @@ import java.io.DataOutputStream;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Client extends Thread {
 
-    protected Socket sk;
     protected DataOutputStream cliente;
     protected DataInputStream server;
     private int id;
@@ -25,32 +29,27 @@ public class Client extends Thread {
 
         try {
 
-            sk = new Socket("127.0.0.1", 10578);
+            Socket socket = new Socket("127.0.0.1", 10578);
 
-            cliente = new DataOutputStream(sk.getOutputStream());
-            server = new DataInputStream(sk.getInputStream());
+            System.out.println(id + " envia saludo");
 
-            System.out.println(id + " envía saludo");
-            cliente.writeUTF("hola");
 
-            String respuesta="";
-            //respuesta = server.readUTF();
+            ObjectInputStream objectInput = new ObjectInputStream(socket.getInputStream());
 
-            System.out.println(id + " Servidor devuelve saludo: " + respuesta);
+            Object object = (HashMap<String, Algo> ) objectInput.readObject();
+            HashMap<String, Algo> algo = (HashMap<String, Algo>) object;
 
-            InputStream iStream = this.sk.getInputStream();
-            ObjectInputStream oiStream = new ObjectInputStream(iStream);
+            Controller.dispatchEvent(new SendAllDataToViewEvent(this, algo));
 
-            ModelMarketData algo = (ModelMarketData) oiStream.readObject();
-            System.out.println(algo);
 
             server.close();
-            cliente.close();
+            //cliente.close();
 
-            sk.close();
+
 
         } catch (Exception e) {
-            Helper.exception(e);
+            //Helper.exception(e);
+            e.printStackTrace();
         }
     }
 

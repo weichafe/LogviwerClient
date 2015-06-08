@@ -3,6 +3,9 @@ package com.larrainvial.utils;
 import com.larrainvial.Algo;
 import com.larrainvial.MainApp;
 import com.larrainvial.Repository;
+import com.larrainvial.event.SendAllDataToViewEvent;
+import com.larrainvial.listener.SendAllDataToViewListener;
+import com.larrainvial.trading.emp.Controller;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.scene.control.Button;
@@ -10,6 +13,12 @@ import javafx.scene.control.Slider;
 import javafx.scene.layout.AnchorPane;
 
 public class Control {
+
+    public static void initialize(){
+
+        Controller.addEventListener(SendAllDataToViewEvent.class, new SendAllDataToViewListener());
+
+    }
 
     public  static void initializaAll() throws InterruptedException {
 

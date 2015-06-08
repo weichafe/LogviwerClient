@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Algo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Repository.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/larrainvial/client/Conexion.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/model/ModelPositions.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/model/ModelRoutingData.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/larrainvial/model/ModelMarketData.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/larrainvial/view" charset="UTF-8" />
   </component>
 </project>

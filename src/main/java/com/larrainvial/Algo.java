@@ -3,18 +3,16 @@ package com.larrainvial;
 import com.larrainvial.logviwer.model.ModelMarketData;
 import com.larrainvial.logviwer.model.ModelPositions;
 import com.larrainvial.logviwer.model.ModelRoutingData;
+import com.larrainvial.trading.emp.Controller;
+import com.larrainvial.utils.FileRepository;
+import com.larrainvial.utils.Helper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TableView;
 
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 
 public class Algo implements Serializable {
 
@@ -35,42 +33,34 @@ public class Algo implements Serializable {
 
     private double time;
 
-    private FXMLLoader mkd_dolar_loader = new FXMLLoader();
-    private FXMLLoader mkd_local_loader = new FXMLLoader();
-    private FXMLLoader mkd_adr_loader = new FXMLLoader();
-    private FXMLLoader routing_adr_loader = new FXMLLoader();
-    private FXMLLoader routing_local_loader = new FXMLLoader();
-    private FXMLLoader panel_positions_loader = new FXMLLoader();
+    transient private FXMLLoader mkd_dolar_loader = new FXMLLoader();
+    transient private FXMLLoader mkd_local_loader = new FXMLLoader();
+    transient private FXMLLoader mkd_adr_loader = new FXMLLoader();
+    transient private FXMLLoader routing_adr_loader = new FXMLLoader();
+    transient private FXMLLoader routing_local_loader = new FXMLLoader();
+    transient private FXMLLoader panel_positions_loader = new FXMLLoader();
 
-    private ObservableList<ModelMarketData> dolarMasterList = FXCollections.observableArrayList();
-    private ObservableList<ModelMarketData> dolarFilterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelMarketData> dolarMasterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelMarketData> dolarFilterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelMarketData> mkdAdrMasterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelMarketData> mkdAdrFilterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelMarketData> mkdLocalMasterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelMarketData> mkdLocalFilterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelRoutingData> routingAdrMasterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelRoutingData> routingAdrFilterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelRoutingData> routingLocalMasterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelRoutingData> routingLocalFilterList = FXCollections.observableArrayList();
+    transient private ObservableList<ModelRoutingData> routingBlotterMasterLsit = FXCollections.observableArrayList();
+    transient private ObservableList<ModelRoutingData> routingBlotterFilterLsit = FXCollections.observableArrayList();
+    transient private ObservableList<ModelPositions> positionsMasterList = FXCollections.observableArrayList();
+    transient private Map<String,ModelPositions> positionsMasterListHash = Collections.synchronizedMap(new LinkedHashMap<String, ModelPositions>());
 
-    private ObservableList<ModelMarketData> mkdAdrMasterList = FXCollections.observableArrayList();
-    private ObservableList<ModelMarketData> mkdAdrFilterList = FXCollections.observableArrayList();
-
-    private ObservableList<ModelMarketData> mkdLocalMasterList = FXCollections.observableArrayList();
-    private ObservableList<ModelMarketData> mkdLocalFilterList = FXCollections.observableArrayList();
-
-    private ObservableList<ModelRoutingData> routingAdrMasterList = FXCollections.observableArrayList();
-    private ObservableList<ModelRoutingData> routingAdrFilterList = FXCollections.observableArrayList();
-
-    private ObservableList<ModelRoutingData> routingLocalMasterList = FXCollections.observableArrayList();
-    private ObservableList<ModelRoutingData> routingLocalFilterList = FXCollections.observableArrayList();
-
-    private ObservableList<ModelRoutingData> routingBlotterMasterLsit = FXCollections.observableArrayList();
-    private ObservableList<ModelRoutingData> routingBlotterFilterLsit = FXCollections.observableArrayList();
-
-    private ObservableList<ModelPositions> positionsMasterList = FXCollections.observableArrayList();
-
-    private Map<String,ModelPositions> positionsMasterListHash = Collections.synchronizedMap(new LinkedHashMap<String, ModelPositions>());
-
-
-    private TableView<ModelMarketData> mkd_dolar_tableView;
-    private TableView<ModelMarketData> mkd_adr_tableView;
-    private TableView<ModelMarketData> mkd_local_tableView;
-    private TableView<ModelRoutingData> routing_adr_tableView;
-    private TableView<ModelRoutingData> routing_local_tableView;
-    private TableView<ModelPositions> panel_positions_tableView;
+    transient private TableView<ModelMarketData> mkd_dolar_tableView;
+    transient private TableView<ModelMarketData> mkd_adr_tableView;
+    transient private TableView<ModelMarketData> mkd_local_tableView;
+    transient private TableView<ModelRoutingData> routing_adr_tableView;
+    transient private TableView<ModelRoutingData> routing_local_tableView;
+    transient private TableView<ModelPositions> panel_positions_tableView;
 
     private boolean mkd_dolar_toggle = false;
     private boolean mkd_local_toggle = false;
@@ -79,10 +69,78 @@ public class Algo implements Serializable {
     private boolean routing_adr_toggle = false;
     private boolean alert = false;
 
-    private ObjectOutputStream routingDataListOutput;
+    private TimerTask timerTask;
 
-    private ArrayList<ModelMarketData> marketDataListInput;
-    private ObjectInputStream routingDataListInput;
+    transient private File file_mkd_dolar;
+    transient private File file_mkd_local;
+    transient private File file_mkd_adr;
+    transient private File file_routing_local;
+    transient private File file_routing_adr;
+
+    transient private FileInputStream inputStream_mkd_dolar;
+    transient private FileInputStream inputStream_mkd_local;
+    transient private FileInputStream inputStream_mkd_adr;
+    transient private FileInputStream inputStream_routing_local;
+    transient private FileInputStream inputStream_routing_adr;
+
+    transient private FileRepository marketDataListOutput;
+    transient private ObjectOutputStream routingDataListOutput;
+
+    transient private ArrayList<ModelMarketData> marketDataListInput;
+    transient private ObjectInputStream routingDataListInput;
+
+
+    public void iniziale() throws Exception {
+
+        final double finalTimer_initial = this.getTime();
+        stopTimer();
+
+        ArrayList<String> typeMarket = new ArrayList<String>();
+        ArrayList<FileInputStream> typeFile = new ArrayList<FileInputStream>();
+
+        typeMarket.add(0, mkd_dolar);
+        typeMarket.add(1, mkd_local);
+        typeMarket.add(2, mkd_adr);
+        typeMarket.add(3, routing_local);
+        typeMarket.add(4, routing_adr);
+
+        typeFile.add(0, inputStream_mkd_dolar);
+        typeFile.add(1, inputStream_mkd_local);
+        typeFile.add(2, inputStream_mkd_adr);
+        typeFile.add(3, inputStream_routing_local);
+        typeFile.add(4, inputStream_routing_adr);
+
+
+        timerTask = new TimerTask(){
+
+            public void run() {
+
+                if(finalTimer_initial != getTime()) {
+
+                    try {
+                        iniziale();
+                    }catch (Exception e){
+                        Helper.exception(e);
+                    }
+                }
+
+            }
+
+        };
+
+        Timer timer = new Timer();
+        timer.scheduleAtFixedRate(timerTask, 1, (int) this.getTime() * 1000);
+
+    }
+
+    public void stopTimer() {
+
+        if (timerTask != null) {
+            timerTask.cancel();
+            timerTask = null;
+        }
+
+    }
 
 
     public ObservableList<ModelPositions> getPositionsMasterList() {
@@ -132,6 +190,14 @@ public class Algo implements Serializable {
 
     public void setRoutingDataListInput(ObjectInputStream routingDataListInput) {
         this.routingDataListInput = routingDataListInput;
+    }
+
+    public FileRepository getMarketDataListOutput() {
+        return marketDataListOutput;
+    }
+
+    public void setMarketDataListOutput(FileRepository marketDataListOutput) {
+        this.marketDataListOutput = marketDataListOutput;
     }
 
     public ObjectOutputStream getRoutingDataListOutput() {
@@ -198,6 +264,45 @@ public class Algo implements Serializable {
         this.dolarFilterList = dolarFilterList;
     }
 
+    public File getFile_mkd_dolar() {
+        return file_mkd_dolar;
+    }
+
+    public void setFile_mkd_dolar(File file_mkd_dolar) {
+        this.file_mkd_dolar = file_mkd_dolar;
+    }
+
+    public File getFile_mkd_local() {
+        return file_mkd_local;
+    }
+
+    public void setFile_mkd_local(File file_mkd_local) {
+        this.file_mkd_local = file_mkd_local;
+    }
+
+    public File getFile_mkd_adr() {
+        return file_mkd_adr;
+    }
+
+    public void setFile_mkd_adr(File file_mkd_adr) {
+        this.file_mkd_adr = file_mkd_adr;
+    }
+
+    public File getFile_routing_local() {
+        return file_routing_local;
+    }
+
+    public void setFile_routing_local(File file_routing_local) {
+        this.file_routing_local = file_routing_local;
+    }
+
+    public File getFile_routing_adr() {
+        return file_routing_adr;
+    }
+
+    public void setFile_routing_adr(File file_routing_adr) {
+        this.file_routing_adr = file_routing_adr;
+    }
 
     public TableView<ModelMarketData> getMkd_dolar_tableView() {
         return mkd_dolar_tableView;
