@@ -20,11 +20,8 @@ public class MainApp extends Application {
 
             ArrayList<Thread> clients = new ArrayList<Thread>();
 
-            clients.add(new Client(1));
+            clients.add(new Client("VNAZAR", "127.0.0.1"));
 
-            for (int i = 0; i < 5; i++) {
-                clients.add(new Client(i));
-            }
             for (Thread thread : clients) {
                 thread.start();
             }

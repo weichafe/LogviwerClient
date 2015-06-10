@@ -43,27 +43,27 @@ public class SwitchButton extends Label implements Serializable {
                 if (t) {
 
                     if(switchBtn.getId().equals("Dolar")){
-                        algo.setMkd_dolar_toggle(true);
+                        algo.mkd_dolar_toggle = true;
                     }
 
                     if(switchBtn.getId().equals("MKD ADR")){
-                        algo.setMkd_adr_toggle(true);
+                        algo.mkd_adr_toggle = true;
                     }
 
                     if(switchBtn.getId().equals("MKD Local")){
-                        algo.setMkd_local_toggle(true);
+                        algo.mkd_local_toggle  = true;
                     }
 
                     if(switchBtn.getId().equals("Routing Local")){
-                        algo.setRouting_local_toggle(true);
+                        algo.routing_local_toggle = true;
                     }
 
                     if(switchBtn.getId().equals("Routing ADR")){
-                        algo.setRouting_adr_toggle(true);
+                        algo.routing_adr_toggle = true;
                     }
 
                     if(switchBtn.getId().equals("Alert")){
-                        algo.setAlert(false);
+                        algo.alert = false;
 
                         switchBtn.setText(nameType + " OFF");
                         switchBtn.setStyle("-fx-background-radius: 6, 5; -fx-background-insets: 0, 1; -fx-effect: dropshadow( three-pass-box , rgba(255,0,0,0.5) , 5, 0.0 , 0 , 1 ); -fx-text-fill: red; -fx-font-weight: bold;");
@@ -80,28 +80,28 @@ public class SwitchButton extends Label implements Serializable {
                 } else {
 
                     if(switchBtn.getId().equals("Dolar")){
-                        algo.setMkd_dolar_toggle(false);
+                        algo.mkd_dolar_toggle = false;
                     }
 
                     if(switchBtn.getId().equals("MKD ADR")){
-                        algo.setMkd_adr_toggle(false);
+                        algo.mkd_adr_toggle = false;
                     }
 
                     if(switchBtn.getId().equals("MKD Local")){
-                        algo.setMkd_local_toggle(false);
+                        algo.mkd_local_toggle = false;
                     }
 
                     if(switchBtn.getId().equals("Routing Local")){
-                        algo.setRouting_local_toggle(false);
+                        algo.routing_local_toggle = false;
                     }
 
                     if(switchBtn.getId().equals("Routing ADR")){
-                        algo.setRouting_adr_toggle(false);
+                        algo.routing_adr_toggle = false;
                     }
 
                     if(switchBtn.getId().equals("Alert")){
 
-                        algo.setAlert(true);
+                        algo.alert = true;
                         switchBtn.setText(nameType + " ON");
                         switchBtn.setStyle("-fx-background-radius: 6, 5; -fx-background-insets: 0, 1; -fx-effect: dropshadow( three-pass-box , rgba(0,255,0,0.5) , 5, 0.0 , 0 , 1 ); -fx-text-fill: #10bd22; -fx-font-weight: bold;");
                         switchBtn.setContentDisplay(ContentDisplay.RIGHT);

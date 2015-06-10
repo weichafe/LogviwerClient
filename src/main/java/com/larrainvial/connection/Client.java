@@ -1,27 +1,24 @@
 package com.larrainvial.connection;
 
-import com.larrainvial.Algo;
-import com.larrainvial.event.SendAllDataToViewEvent;
-import com.larrainvial.logviwer.model.ModelMarketData;
-import com.larrainvial.trading.emp.Controller;
-import com.larrainvial.utils.Helper;
+import com.larrainvial.Repository;
+import com.larrainvial.logviwer.vo.StrategyDataVO;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.InputStream;
+import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Client extends Thread {
 
-    protected DataOutputStream cliente;
-    protected DataInputStream server;
-    private int id;
+    private Object object;
 
-    public Client(int id) {
+    private String id;
+    private String ip;
+
+    public Client(String id, String ip) {
         this.id = id;
+        this.ip = ip;
     }
 
     @Override
@@ -29,27 +26,38 @@ public class Client extends Thread {
 
         try {
 
-            Socket socket = new Socket("127.0.0.1", 10578);
+            Repository.socket = new Socket(ip, 10578);
+            System.out.println(id + " inciando Cliente");
 
-            System.out.println(id + " envia saludo");
+            Repository.sendMessage = new DataOutputStream(Repository.socket.getOutputStream());
+            Repository.receivedMessage = new DataInputStream(Repository.socket.getInputStream());
+
+            Repository.sendMessage.writeUTF(id);
+
+            ObjectInputStream objectInput = new ObjectInputStream(Repository.socket.getInputStream());
+
+            Object object = (StrategyDataVO) objectInput.readObject();
+            StrategyDataVO strategyDataVO = (StrategyDataVO) object;
+            //Controller.dispatchEvent(new SendAllDataToViewEvent(this, strategyDataVO));
+            System.out.println();
 
 
-            ObjectInputStream objectInput = new ObjectInputStream(socket.getInputStream());
-
-            Object object = (HashMap<String, Algo> ) objectInput.readObject();
-            HashMap<String, Algo> algo = (HashMap<String, Algo>) object;
-
-            Controller.dispatchEvent(new SendAllDataToViewEvent(this, algo));
-
-
-            server.close();
+            //server.close();
             //cliente.close();
-
-
 
         } catch (Exception e) {
             //Helper.exception(e);
             e.printStackTrace();
+            System.out.println(object);
+
+
+        } finally {
+            try {
+                Repository.socket.close();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
