@@ -26,6 +26,7 @@ public class StrategyDataVO implements Serializable {
     public ArrayList<ModelRoutingData> routingLocalMasterListArray = new ArrayList<ModelRoutingData>();
     public ArrayList<ModelRoutingData> routingBlotterMasterListArray = new ArrayList<ModelRoutingData>();
     public ArrayList<ModelPositions> positionsMasterListArray = new ArrayList<ModelPositions>();
+
     public LinkedHashMap<String,ModelPositions> positionsMasterListHash = new LinkedHashMap<String, ModelPositions>();
 
 }

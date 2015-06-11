@@ -7,6 +7,8 @@ import com.larrainvial.logviwer.vo.StrategyDataVO;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.TableView;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -49,13 +51,18 @@ public class Algo implements Serializable {
     public ArrayList<ModelPositions> positionsMasterListArray = new ArrayList<ModelPositions>();
     public Map<String,ModelPositions> positionsMasterListHash = Collections.synchronizedMap(new LinkedHashMap<String, ModelPositions>());
 
+    transient public TableView<ModelMarketData> mkd_dolar_tableView;
+    transient public TableView<ModelMarketData> mkd_adr_tableView;
+    transient public TableView<ModelMarketData> mkd_local_tableView;
+    transient public TableView<ModelRoutingData> routing_adr_tableView;
+    transient public TableView<ModelRoutingData> routing_local_tableView;
+    transient public TableView<ModelPositions> panel_positions_tableView;
 
     transient public boolean mkd_dolar_toggle = false;
     transient public boolean mkd_local_toggle = false;
     transient public boolean mkd_adr_toggle = false;
     transient public boolean routing_local_toggle = false;
     transient public boolean routing_adr_toggle = false;
-
     transient public boolean alert = false;
 
 

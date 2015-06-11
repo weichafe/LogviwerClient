@@ -1,6 +1,5 @@
 package com.larrainvial;
 
-import com.larrainvial.connection.Client;
 import com.larrainvial.utils.Control;
 import com.larrainvial.utils.Helper;
 import javafx.application.Application;
@@ -9,22 +8,12 @@ import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-import java.util.ArrayList;
-
 public class MainApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
 
         try {
-
-            ArrayList<Thread> clients = new ArrayList<Thread>();
-
-            clients.add(new Client("VNAZAR", "127.0.0.1"));
-
-            for (Thread thread : clients) {
-                thread.start();
-            }
 
             Repository.primaryStage = primaryStage;
             Repository.primaryStage.setTitle("Log Viwer");
@@ -41,7 +30,11 @@ public class MainApp extends Application {
 
             primaryStage.show();
 
-            Control.initializaAll();
+            Control.initializeListener();
+            Control.initializaStrategy();
+
+
+            new Helper().connect("VNAZAR", "127.0.0.1", 10578);
 
         } catch (Exception e){
             Helper.exception(e);

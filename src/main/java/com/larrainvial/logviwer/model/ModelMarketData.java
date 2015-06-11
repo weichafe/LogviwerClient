@@ -32,10 +32,6 @@ public class ModelMarketData implements Serializable {
         this.composite = 0d;
     }
 
-    public ModelMarketData() {
-
-    }
-
     public void setSymbol(String symbol) {
         this.symbol = symbol;
     }

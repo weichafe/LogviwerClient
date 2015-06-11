@@ -1,11 +1,14 @@
 package com.larrainvial.utils;
 
+import com.larrainvial.event.ConnectToServerEvent;
+import com.larrainvial.trading.emp.Controller;
 import javafx.application.Platform;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Priority;
+
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -104,6 +107,10 @@ public class Helper {
 
                 }
             });
+    }
+
+    public void connect(String id, String ip, int host){
+        Controller.dispatchEvent(new ConnectToServerEvent(this, id, ip, host));
     }
 
 
