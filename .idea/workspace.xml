@@ -2,282 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad228ccf-9cb3-4651-8afc-6ff8498b899d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/event/ConnectToServerEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ConnectToServerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/NameStrategyVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/event/ReceivedDataToViewEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\connection\Client.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragetest\MarketDataAdrController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragetest\MarketDataDolarController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragetest\MarketDataLocalController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragetest\PanelPositionsController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragetest\RoutingAdrController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragetest\RoutingLocalController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexbog\MarketDataAdrController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexbog\MarketDataDolarController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexbog\MarketDataLocalController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexbog\PanelPositionsController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragextse\MarketDataAdrController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragextse\MarketDataDolarController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragextse\MarketDataLocalController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragextse\PanelPositionsController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragextse\RoutingAdrController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragextse\RoutingLocalController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\sellside\RoutingAdrController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\event\SendAllDataToViewEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\listener\SendAllDataToViewListener.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragetest\MarketDataAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragetest\MarketDataDolarView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragetest\MarketDataLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragetest\PanelPositionsView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragetest\RoutingAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragetest\RoutingLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexbog\MarketDataAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexbog\MarketDataDolarView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexbog\MarketDataLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexbog\PanelPositionsView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexbog\RoutingAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexbog\RoutingLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragextse\MarketDataAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragextse\MarketDataDolarView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragextse\MarketDataLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragextse\PanelPositionsView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragextse\RoutingAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragextse\RoutingLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\sellside\RoutingAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\connection\Client.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataDolarController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataDolarController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataDolarController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataLocalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataLocalController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\MarketDataLocalController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\PanelPositionsController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\PanelPositionsController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\PanelPositionsController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\PanelPositionsController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\PanelPositionsController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\PanelPositionsController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\PanelPositionsController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragetest\RoutingLocalController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataDolarController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataDolarController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataDolarController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataDolarController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataLocalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataLocalController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\MarketDataLocalController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\PanelPositionsController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\PanelPositionsController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\PanelPositionsController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\PanelPositionsController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\PanelPositionsController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\PanelPositionsController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\PanelPositionsController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexbog\RoutingLocalController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataDolarController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataDolarController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataDolarController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataDolarController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataDolarController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataLocalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataLocalController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataLocalController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\MarketDataLocalController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\PanelPositionsController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\PanelPositionsController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\PanelPositionsController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\PanelPositionsController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\PanelPositionsController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\PanelPositionsController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\PanelPositionsController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataDolarController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataDolarController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataDolarController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataDolarController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataLocalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataLocalController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataLocalController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\MarketDataLocalController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\PanelPositionsController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\PanelPositionsController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\PanelPositionsController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\PanelPositionsController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\PanelPositionsController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\PanelPositionsController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\PanelPositionsController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\adrarbitragextse\RoutingLocalController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\controller\sellside\RoutingAdrController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\event\SendAllDataToViewEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\listener\SendAllDataToViewListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragetest\MarketDataAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragetest\MarketDataDolarView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragetest\MarketDataLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragetest\PanelPositionsView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragetest\RoutingAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragetest\RoutingLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexbog\MarketDataAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexbog\MarketDataDolarView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexbog\MarketDataLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexbog\PanelPositionsView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexbog\RoutingAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexbog\RoutingLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragextse\MarketDataAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragextse\MarketDataDolarView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragextse\MarketDataLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragextse\PanelPositionsView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragextse\RoutingAdrView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragextse\RoutingLocalView.fxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\sellside\RoutingAdrView.fxml" afterPath="" />
-      <change type="MOVED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexsgo\MarketDataAdrController.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/controller/adrarbitragexsgo/MarketDataAdrController.java" />
-      <change type="MOVED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexsgo\MarketDataDolarController.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/controller/adrarbitragexsgo/MarketDataDolarController.java" />
-      <change type="MOVED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexsgo\MarketDataLocalController.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/controller/adrarbitragexsgo/MarketDataLocalController.java" />
-      <change type="MOVED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexsgo\PanelPositionsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/controller/adrarbitragexsgo/PanelPositionsController.java" />
-      <change type="MOVED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexsgo\RoutingAdrController.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/controller/adrarbitragexsgo/RoutingAdrController.java" />
-      <change type="MOVED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\controller\adrarbitragexsgo\RoutingLocalController.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/controller/adrarbitragexsgo/RoutingLocalController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/Algo.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/Algo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/utils/Control.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/utils/Control.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/utils/Helper$1.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/utils/Helper$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/utils/Helper$2.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/utils/Helper$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/utils/Helper.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/utils/Helper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/MainApp.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/MainApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/logviwer/model/ModelMarketData.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/logviwer/model/ModelMarketData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/larrainvial/Algo.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/Algo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Helper.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogviwerClient.iml" afterPath="$PROJECT_DIR$/LogviwerClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/larrainvial/MainApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/MainApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/MarketDataAdrView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/MarketDataAdrView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/MarketDataAdrView.fxml" afterPath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/MarketDataAdrView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/MarketDataDolarView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/MarketDataDolarView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/MarketDataDolarView.fxml" afterPath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/MarketDataDolarView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/MarketDataLocalView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/MarketDataLocalView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/MarketDataLocalView.fxml" afterPath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/MarketDataLocalView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/model/ModelMarketData.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/model/ModelMarketData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/PanelPositionsView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/PanelPositionsView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/PanelPositionsView.fxml" afterPath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/PanelPositionsView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/RoutingAdrView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/RoutingAdrView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/RoutingAdrView.fxml" afterPath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/RoutingAdrView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/RoutingLocalView.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/RoutingLocalView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/RoutingLocalView.fxml" afterPath="$PROJECT_DIR$/target/classes/view/adrarbitragexsgo/RoutingLocalView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/StrategyDataVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/StrategyDataVO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/rootLayout.fxml" afterPath="$PROJECT_DIR$/target/classes/view/rootLayout.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LogviwerClient.iws" />
@@ -296,37 +21,27 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="StrategyDataVO.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/StrategyDataVO.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.46401986">
-                    <caret line="27" column="61" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="61" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="LogviwerClient" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReceivedDataToViewListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReceivedDataToViewListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8120155">
-              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -337,9 +52,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#558#572#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -349,10 +62,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="101" column="54" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="54" />
-              <folding>
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -480,10 +190,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1608" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="916" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -586,9 +296,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -607,210 +314,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larrainvial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larrainvial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larrainvial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logviwer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larrainvial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logviwer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LogviwerClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="larrainvial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listener" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -834,16 +342,16 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26436782" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../logviwer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspaceGit\LogviwerClient" />
       <recent name="C:\workspaceGit\LogviwerClient\src\main\resources" />
       <recent name="C:\workspaceGit\LogviwerClient\src\com\larrainvial" />
       <recent name="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial" />
       <recent name="C:\Workspace\LogviwerClient\src\main\java\com\larrainvial\utils" />
-      <recent name="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspaceGit\LogviwerClient\src\main\resources\view" />
@@ -1168,44 +676,46 @@
       <workItem from="1433767646503" duration="5817000" />
       <workItem from="1433774293007" duration="5455000" />
       <workItem from="1433952916804" duration="3652000" />
-      <workItem from="1433962449596" duration="28240000" />
+      <workItem from="1433962449596" duration="28241000" />
+      <workItem from="1434113115888" duration="2906000" />
+      <workItem from="1434141099792" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76458000" />
+    <option name="totallyTimeSpent" value="79377000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1608" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34353268" sideWeight="0.44865212" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30180806" sideWeight="0.094993584" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25866497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2859025" sideWeight="0.9050064" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859025" sideWeight="0.9050064" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34353268" sideWeight="0.44865212" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1259,6 +769,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="54" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="54" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_40/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33206832">
@@ -1270,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="1350" column="0" selection-start-line="1350" selection-start-column="0" selection-end-line="1350" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33193278">
           <caret line="2259" column="24" selection-start-line="2259" selection-start-column="24" selection-end-line="2259" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33193278">
           <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2271715">
           <caret line="6" column="241" selection-start-line="6" selection-start-column="241" selection-end-line="6" selection-end-column="241" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1313,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41648108">
           <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1324,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30289534">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1335,9 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37861916">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1364,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0445434">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1383,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53571427">
           <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21428572">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,10 +950,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="101" column="54" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="54" />
-          <folding>
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,16 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#558#572#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/StrategyDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46401986">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -1444,14 +973,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6414392">
           <caret line="57" column="72" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="72" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/StrategyDataVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49866667">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8120155">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
