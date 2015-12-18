@@ -2,7 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad228ccf-9cb3-4651-8afc-6ff8498b899d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/menu/about/About.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/AlertEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/CalculateLastPriceEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/CalculatePositions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/CalculatePositionsEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/process/SSH/Connection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/Dialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/DolarEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/ExportExcel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/Graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Helper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/LastPriceController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/sendtoview/LastPriceEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/view/algos/LastPriceView.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Latency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/MMBCSController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/MarketDataADREvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/MarketDataLocalEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/model/ModelLatency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Notifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/view/algos/PanelMMBCS.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/view/algos/PanelPositionsView.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/view/process/PanelProccesView.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/sendtoview/PositionViewEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/view/PrincipalTabPanel.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/process/Thread/PrintConsole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/view/process/Process.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/menu/Process/Process.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/PropertiesFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadFromDolarEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogMkdAdrEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogMkdLocalEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogRoutingLocalEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadlogRoutingAdrEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/RootLayoutController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/RoutingAdrEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/RoutingLocalEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/SellSideController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/process/vo/ServerVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/process/SSH/SesionUsuario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Sound.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/StartLogviewer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/sellside/StartSellSide.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/StringToMarketData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/StringToRoutingData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/SwitchButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/view/about.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/view/rootLayout.fxml" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\Algo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\MainApp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\Repository.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\event\ConnectToServerEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\event\ReceivedDataToViewEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\listener\ConnectToServerListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\listener\ReceivedDataToViewListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviewer\model\ModelRoutingData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviewer\vo\NameStrategyVO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviewer\vo\StrategyDataVO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataAdrController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataDolarController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataLocalController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer\model\ModelMarketData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer\model\ModelPositions.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\utils\Control.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\utils\FileRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\utils\Helper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\utils\SwitchButton.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\Style\SimpleTheme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\PrincipalTabPanel.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexsgo\MarketDataAdrView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexsgo\MarketDataDolarView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexsgo\MarketDataLocalView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexsgo\PanelPositionsView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexsgo\RoutingAdrView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\adrarbitragexsgo\RoutingLocalView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\src\main\resources\view\rootLayout.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\Algo.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\event\ConnectToServerEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\event\ReceivedDataToViewEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\listener\ConnectToServerListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\listener\ReceivedDataToViewListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataAdrController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataAdrController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataAdrController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataAdrController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataDolarController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataDolarController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataDolarController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataDolarController$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataDolarController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataLocalController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataLocalController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataLocalController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\MarketDataLocalController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\PanelPositionsController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\PanelPositionsController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\PanelPositionsController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\PanelPositionsController$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\PanelPositionsController$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\PanelPositionsController$6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\PanelPositionsController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$10.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController$9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingAdrController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$10.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController$9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\controller\adrarbitragexsgo\RoutingLocalController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\model\ModelMarketData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\model\ModelPositions.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\model\ModelRoutingData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\vo\NameStrategyVO.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\logviwer\vo\StrategyDataVO.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\utils\Control.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\utils\FileRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\utils\Helper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\utils\Helper$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\utils\Helper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\utils\SwitchButton$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\utils\SwitchButton$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\com\larrainvial\utils\SwitchButton.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\style\SimpleTheme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\PrincipalTabPanel.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexsgo\MarketDataAdrView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexsgo\MarketDataDolarView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexsgo\MarketDataLocalView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexsgo\PanelPositionsView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexsgo\RoutingAdrView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\adrarbitragexsgo\RoutingLocalView.fxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspaceGit\LogviwerClient\target\classes\view\rootLayout.fxml" afterPath="" />
+      <change type="MOVED" beforePath="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial\logviwer\controller\adrarbitragexsgo\PanelPositionsController.java" afterPath="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/PanelPositionsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/MainApp.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/MainApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/larrainvial/Repository.class" afterPath="$PROJECT_DIR$/target/classes/com/larrainvial/Repository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogviwerClient.iml" afterPath="$PROJECT_DIR$/LogviwerClient.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LogviwerClient.iws" />
@@ -26,48 +179,7 @@
     <favorites_list name="LogviwerClient" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ReceivedDataToViewListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Repository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Repository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Control.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="101" column="54" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,57 +199,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/view/adrarbitragextse/MarketDataAdrView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/ModelMarketData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/model/ModelMarketData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/model/ModelPositions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/model/ModelRoutingData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragextse/MarketDataLocalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragextse/MarketDataAdrController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragetest/MarketDataDolarController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragextse/MarketDataDolarController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragetest/MarketDataLocalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragetest/MarketDataAdrController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragexbog/MarketDataAdrController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragexsgo/MarketDataAdrController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragexbog/MarketDataLocalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragexsgo/MarketDataLocalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragexbog/MarketDataDolarController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/controller/adrarbitragexsgo/MarketDataDolarController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/utils/FileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/utils/SwitchButton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/vo/StrategyVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/vo/StrategyDataVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/model/vo/StrategyDataVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/connection/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/event/SendAllDataToViewEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/StrategyVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/Algo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/listener/SendAllDataToViewListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/model/ModelMarketData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/event/ConnectToServerEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Helper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/view/PrincipalTabPanel.fxml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/StartLogviewer.java" />
         <option value="$PROJECT_DIR$/src/com/larrainvial/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/com/larrainvial/view/adrarbitragexsgo/MarketDataAdrView.fxml" />
-        <option value="$PROJECT_DIR$/src/com/larrainvial/view/adrarbitragexsgo/RoutingLocalView.fxml" />
-        <option value="$PROJECT_DIR$/src/com/larrainvial/view/PrincipalTabPanel.fxml" />
-        <option value="$PROJECT_DIR$/src/com/larrainvial/view/adrarbitragexsgo/MarketDataDolarView.fxml" />
-        <option value="$PROJECT_DIR$/src/com/larrainvial/view/adrarbitragexsgo/MarketDataLocalView.fxml" />
-        <option value="$PROJECT_DIR$/src/com/larrainvial/view/adrarbitragexsgo/PanelPositionsView.fxml" />
-        <option value="$PROJECT_DIR$/src/com/larrainvial/view/adrarbitragexsgo/RoutingAdrView.fxml" />
-        <option value="$PROJECT_DIR$/src/com/larrainvial/utils/Control.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/adrarbitragexsgo/MarketDataLocalView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/adrarbitragexsgo/MarketDataAdrView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/adrarbitragexsgo/RoutingAdrView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/NameStrategyVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/Repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ConnectToServerListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/StrategyDataVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/SwitchButton.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/adaptador/QuickFixAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/Graph.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/LastPriceController.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/MMBCSController.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/PanelPositionsController.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/SellSideController.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/CalculateLastPriceEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/CalculatePositionsEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/model/ModelLatency.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/CalculatePositions.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/model/ModelDolar.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/Dialog.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Notifier.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Helper.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Latency.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/vo/ServerVO.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/process/SSH/Connection.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/event/SendToViewEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/listener/SendToViewListener.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/utils/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/utils/Validation.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/listener/received/ReceivedNewOrderSingleListener.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/listener/received/ReceivedOrderCancelReplaceRequestListener.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/listener/received/ReceivedOrderCancelRequestListener.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/listener/send/ExecutionReportListener.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/sellside/listener/send/TradeListener.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/process/Thread/PrintConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/menu/Process/Process.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/RoutingAdrEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/MarketDataADREvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/menu/about/About.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/ExportExcel.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/RootLayoutController.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadFromDolarEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogMkdAdrEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogMkdLocalEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadlogRoutingAdrEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogRoutingLocalEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/sendtoview/LastPriceEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/sendtoview/PositionViewEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/DolarEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/MarketDataLocalEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/RoutingLocalEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/AlertEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/bo/Algo.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/StringToRoutingData.java" />
+        <option value="$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/StringToMarketData.java" />
       </list>
     </option>
   </component>
@@ -296,6 +408,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,11 +427,156 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larrainvial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larrainvial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sellside" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larrainvial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="process" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larrainvial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larrainvial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logviewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LogviwerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larrainvial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logviewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adaptador" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,28 +597,30 @@
     <property name="dynamic.classpath" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26436782" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LogviwerServer" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspaceGit\LogviwerClient" />
-      <recent name="C:\workspaceGit\LogviwerClient\src\main\resources" />
       <recent name="C:\workspaceGit\LogviwerClient\src\com\larrainvial" />
-      <recent name="C:\workspaceGit\LogviwerClient\src\main\java\com\larrainvial" />
-      <recent name="C:\Workspace\LogviwerClient\src\main\java\com\larrainvial\utils" />
+      <recent name="C:\workspaceGit\LogviwerClient\src\com\larrainvial\logviewer\event" />
+      <recent name="C:\workspaceGit\LogviwerClient\src\com\larrainvial\logviewer\controller" />
+      <recent name="C:\workspaceGit\LogviwerClient\src\com\larrainvial\logviewer" />
+      <recent name="C:\workspaceGit\LogviwerClient\src\com\larrainvial\logviewer\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspaceGit\LogviwerClient\src" />
       <recent name="C:\workspaceGit\LogviwerClient\src\main\resources\view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.larrainvial.utils" />
-      <recent name="com.larrainvial.logviwer" />
-      <recent name="com.larrainvial" />
-      <recent name="com.larrainvial.client" />
+      <recent name="com.larrainvial.logviewer.vo" />
+      <recent name="com.larrainvial.logviewer.model" />
+      <recent name="com.larrainvial.logviewer.utils" />
+      <recent name="com.larrainvial.sellside" />
+      <recent name="com.larrainvial.sellside.adaptador" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Client">
@@ -635,7 +895,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.larrainvial.MainApp" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="C:\workspaceGit\LogviwerClient\src\main\resources\client.properties" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -678,42 +938,47 @@
       <workItem from="1433952916804" duration="3652000" />
       <workItem from="1433962449596" duration="28241000" />
       <workItem from="1434113115888" duration="2906000" />
-      <workItem from="1434141099792" duration="12000" />
+      <workItem from="1434141099792" duration="759000" />
+      <workItem from="1434547461378" duration="1285000" />
+      <workItem from="1434729602153" duration="627000" />
+      <workItem from="1440610563415" duration="24000" />
+      <workItem from="1443618092315" duration="1371000" />
+      <workItem from="1450284871053" duration="18767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79377000" />
+    <option name="totallyTimeSpent" value="102198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34353268" sideWeight="0.42416453" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30180806" sideWeight="0.094993584" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34353268" sideWeight="0.57583547" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25866497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25321338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29902643" sideWeight="0.90616965" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859025" sideWeight="0.9050064" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34353268" sideWeight="0.44865212" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -760,7 +1025,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="74" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadFromDolarEvent.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/sendtoview/LastPriceEvent.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -769,233 +1048,481 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/SwitchButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.685022">
+          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#10721#10722#0" expanded="false" />
+            <element signature="e#10753#10754#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9361234">
+          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+          <folding>
+            <element signature="e#1360#1382#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3370044">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/LastPriceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Repository.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/CalculateLastPriceEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.45945945">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/model/ModelLatency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.076576576">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/CalculatePositions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="54" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="54" />
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/CalculatePositionsEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.042792793">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/model/ModelDolar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Repository.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/fxvo/Dialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#708#867#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#1488#1489#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Latency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.0585585">
+          <caret line="111" column="55" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Sound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3828829">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Notifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="54" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.45945945">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5743243">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_40/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33206832">
-          <caret line="423" column="0" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_40/src.zip!/java/io/ObjectInputStream.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Process.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
-          <caret line="1350" column="0" selection-start-line="1350" selection-start-column="0" selection-end-line="1350" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_40/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33193278">
-          <caret line="2259" column="24" selection-start-line="2259" selection-start-column="24" selection-end-line="2259" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_40/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33193278">
-          <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33552632">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6936937">
+          <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/RoutingAdrView.fxml">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/process/SSH/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2271715">
-          <caret line="6" column="241" selection-start-line="6" selection-start-column="241" selection-end-line="6" selection-end-column="241" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/MarketDataLocalView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41648108">
-          <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/adrarbitragexsgo/MarketDataAdrView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30289534">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/controller/adrarbitragexsgo/MarketDataAdrController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.076576576">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/controller/adrarbitragexsgo/PanelPositionsController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/adaptador/QuickFixAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/rootLayout.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37861916">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/style/SimpleTheme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/PrincipalTabPanel.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0445434">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53571427">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/event/ReceivedDataToViewEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21428572">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/NameStrategyVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10714286">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="27" />
+        <state vertical-scroll-proportion="4.25">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/utils/Control.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/event/SendToViewEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="54" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="54" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/listener/SendToViewListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/utils/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ConnectToServerListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/utils/Validation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="130" column="30" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/Algo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6414392">
-          <caret line="57" column="72" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/logviwer/vo/StrategyDataVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49866667">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/larrainvial/listener/ReceivedDataToViewListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/listener/received/ReceivedNewOrderSingleListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#879#880#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/listener/received/ReceivedOrderCancelReplaceRequestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/listener/received/ReceivedOrderCancelRequestListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/listener/send/ExecutionReportListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="96" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/sellside/listener/send/TradeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/process/Thread/PrintConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#1158#1394#0" expanded="false" />
+            <element signature="e#1393#1394#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/MMBCSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/algos/PanelPositionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/MarketDataADREvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/menu/about/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/menu/Process/Process.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/RoutingAdrEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3063063">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/SellSideController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="44" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/ExportExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/controller/RootLayoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="68" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadFromDolarEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogMkdAdrEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogMkdLocalEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadlogRoutingAdrEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/readlog/ReadLogRoutingLocalEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/sendtoview/LastPriceEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/sendtoview/PositionViewEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/DolarEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/MarketDataLocalEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/stringtofix/RoutingLocalEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/event/utils/AlertEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/StringToRoutingData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/logviewer/utils/StringToMarketData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.747748">
+          <caret line="128" column="6" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/larrainvial/bo/Algo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7567568">
+          <caret line="301" column="5" selection-start-line="301" selection-start-column="5" selection-end-line="301" selection-end-column="5" />
+          <folding>
+            <element signature="e#16911#16912#0" expanded="true" />
+            <element signature="e#16943#16944#0" expanded="true" />
+            <element signature="e#16986#16987#0" expanded="true" />
+            <element signature="e#17020#17021#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,6 +1583,7 @@
             <option name="proportions">
               <list>
                 <option value="0.26436782" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

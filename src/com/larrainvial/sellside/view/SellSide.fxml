@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane  xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.larrainvial.logviwer.controller.SellSideController">
+  <children>
+    <TableView fx:id="sellside" prefWidth="1490">
+      <columns>
+        <TableColumn text="Received" fx:id="received" />
+        <TableColumn text="Type" fx:id="messageByType" />
+        <TableColumn text="Symbol" fx:id="symbol" />
+        <TableColumn text="ClOrdID" fx:id="clOrdID" />
+        <TableColumn text="OrderID" fx:id="orderID" />
+        <TableColumn text="OrigClOrdID" fx:id="origClOrdID" />
+        <TableColumn text="ExecType" fx:id="execType" />
+        <TableColumn text="OrdStatus" fx:id="ordStatus" />
+        <TableColumn text="Account" fx:id="account" />
+        <TableColumn text="Side" fx:id="side" />
+        <TableColumn text="ClOrdLinkID" fx:id="clOrdLinkID" />
+        <TableColumn text="ExDestination" fx:id="exDestination" />
+        <TableColumn text="SecurityExchange" fx:id="securityExchange" />
+        <TableColumn text="Price" fx:id="price" />
+        <TableColumn text="OrderQty" fx:id="orderQty" />
+        <TableColumn text="LastQty" fx:id="lastQty" />
+        <TableColumn text="LastPx" fx:id="lastPx" />
+        <TableColumn text="LeavesQty" fx:id="leavesQty" />
+        <TableColumn text="CumQty" fx:id="cumQty" />
+        <TableColumn text="AvgPx" fx:id="avgPx" />
+        <TableColumn text="ExecID" fx:id="execID" />
+        <TableColumn text="MaxFloor" fx:id="maxFloor" />
+        <TableColumn text="Text" fx:id="text" />
+        <TableColumn text="EffectiveTime" fx:id="effectiveTime" />
+        <TableColumn text="ExpireTime" fx:id="expireTime" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>
